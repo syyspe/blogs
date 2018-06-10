@@ -1,0 +1,10 @@
+POST http://localhost:3001/api/blogs
+Content-Type: application/json
+Authorization: Bearer eyJ...
+
+{
+    "title": "no likes!",
+    "author": "unpopular",
+    "url": "http://google.com",
+    "likes": 0
+}
